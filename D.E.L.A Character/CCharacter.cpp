@@ -110,7 +110,6 @@ void CCharacter::elegirRaza()
 {
     int eleccion = 0;
     do {
-        system("cls");
         std::cout << "\n";
         printBienvenida();
         std::cout << "\n";
@@ -151,7 +150,6 @@ void CCharacter::elegirClase()
 {
     int eleccion = 0;
     do {
-        system("cls");
         printBienvenida();
         std::cout << "\n";
         printEstadisticas();
@@ -219,7 +217,7 @@ void CCharacter::elegirNombre()
 
 void CCharacter::printBienvenida()
 {
-    std::cout << "Bienvenido a D.E.L.A MEDIEVAL FANTASY\n";
+    std::cout << "D.E.L.A MEDIEVAL FANTASY\n";
 }
 
 void CCharacter::printNombre()
