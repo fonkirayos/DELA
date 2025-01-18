@@ -19,7 +19,6 @@ int main()
     for (int i = 0; i < numPersonajes; i++) {
         personaje.rollEstadisticas();
         personaje.rollObjetoUnico();
-        personaje.printEstadisticas();
         personaje.elegirRaza();
         personaje.elegirClase();
         personaje.elegirNombre();
@@ -34,6 +33,8 @@ int main()
         personajes[i].printPersonaje();
     }
 
+    std::cout << "Presione cualquier tecla para salir\n";
+    std::cin.ignore();
     return 0;
 }
 
